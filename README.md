@@ -28,37 +28,6 @@ The application accepts an image, detects human faces, and returns a meaningful 
 **Frontend**
 - HTML
 - JavaScript (Fetch API)
-
----
-
-## 📂 Project Structure
-
-face-detect-app
-│
-├── src/main/java
-│ └── com.ashik.FaceDetectApp
-│ ├── FaceDetectAppApplication.java
-│ ├── controller
-│ │ └── FaceDetectionController.java
-│ ├── service
-│ │ └── FaceDetectionService.java
-│ └── config
-│ └── OpenCVConfig.java
-│
-├── src/main/resources
-│ ├── static
-│ │ └── index.html
-│ └── haarcascade
-│ ├── haarcascade_frontalface_default.xml
-│ └── haarcascade_profileface.xml
-│
-├── uploads
-│ └── (saved face images)
-│
-├── pom.xml
-└── README.md
-
-
 ---
 
 ## 🔍 How Face Detection Works
@@ -80,10 +49,9 @@ face-detect-app
 ### POST `/detect`
 
 **Request**
-multipart/form-data
-key: image
-value: image file
-
+multipart/form-data 
+key: image 
+value: image file 
 
 ### ✔ Success Response (200 OK)
 
