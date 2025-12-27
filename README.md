@@ -48,10 +48,10 @@ The application accepts an image, detects human faces, and returns a meaningful 
 
 ### POST `/detect`
 
-**Request**
-multipart/form-data 
-key: image 
-value: image file 
+**Request**  
+multipart/form-data  
+key: image  
+value: image file  
 
 ### ✔ Success Response (200 OK)
 
